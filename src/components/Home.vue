@@ -2,7 +2,7 @@
   <div class="home">
     <div class="sidebar">
       <div class="about">
-        <h1>Will Li</h1>
+        <div id="name"><span id="name-text">Will Li</span></div>
         <div id="bio">
           Hello! I am a student at Stony Brook University with a passion for Computer Science. 
           I love building different websites and apps, 
@@ -49,11 +49,22 @@ export default {
 .about {
   margin: 200px 100px;
 }
+#name {
+  font-size: 3em;
+  margin: 0.33em 0;
+}
+#name-text {
+  transition: 300ms ease-in-out;
+}
+#name-text:hover {
+  color: #ED960B;
+  font-size: 1.8em;
+}
 #bio {
   display: flex;
 }
 #history {
-  margin: 1.34em 0;
+  margin: 1em 0;
 }
 a:visited, a:link {
   color: inherit;
@@ -61,10 +72,17 @@ a:visited, a:link {
 i {
   font-size: 2em;
   margin-right: 0.5em;
-  transition: ease-in-out 0.2s;
+  transition: 300ms ease-in-out;
 }
 i:hover {
-  color: black;
+  color: #ED960B;
+}
+#quote {
+  width: fit-content;
+  margin: 1em 0;
+  padding: 9px;
+  border: 1px solid #ED960B;
+  border-radius: 5px;
 }
 .content {
   position: fixed;
@@ -72,13 +90,6 @@ i:hover {
   height: 100vh;
   width: 63vw;
 }
-#quote {
-  margin: 1.34em 0;
-  padding: 9px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
 .projects {
   width: 90%;
   margin: 12vh auto;
@@ -88,7 +99,7 @@ i:hover {
 .project-card {
   flex: 0 0 calc(50% - 33px);
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid #ED960B;
   border-radius: 5px;
   padding: 10px;
   margin: 0.5%;

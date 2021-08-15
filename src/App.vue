@@ -14,13 +14,18 @@ export default {
 </script>
 
 <style>
+:root {
+    --text-color: #e2e2e2;
+    --bg-color:#202124;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: var(--text-color);
 }
 body {
   margin: 0;
+  background: var(--bg-color);
 }
 </style>

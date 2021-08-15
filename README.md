@@ -1,19 +1,5 @@
 # personal-website
 
-## Project setup
-```
-npm install
-```
+This is the repository for my personal site! :)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[You can visit the site here](https://liwll.github.io/personal-website/)

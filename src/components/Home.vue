@@ -19,29 +19,10 @@
           <a href="mailto:will.li@stonybrook.edu"><i class="bi bi-envelope-fill"></i></a>
           <a href="#bio"><i class="bi bi-file-earmark-text-fill"></i></a>
         </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="projects">
-        <div class="project-card">
-          Project
-        </div>
-        <div class="project-card">
-          Project
-        </div>
-        <div class="project-card">
-          Project
-        </div>
-        <div class="project-card">
-          Project
-        </div>
-        <div class="project-card">
-          Project
+        <div id="quote">
+          <span id="quote-text">"Man's reach exceeds his imagination!" - Robert Angier, <em>The Prestige</em></span>
         </div>
       </div>
-      
-
     </div>
   </div>
 </template>
@@ -52,19 +33,21 @@ export default {
   props: {
     msg: String
   },
+  data: function() {
+    return {
+      Projects: 5
+    }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .sidebar {
-  position: fixed;
-  height: 100vh;
-  width: 37vw;
-  border-right: 1px solid black;
+  margin: auto;
 }
 .about {
-  margin: 33% 100px;
+  margin: 200px 100px;
 }
 #bio {
   display: flex;
@@ -89,6 +72,13 @@ i:hover {
   height: 100vh;
   width: 63vw;
 }
+#quote {
+  margin: 1.34em 0;
+  padding: 9px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 .projects {
   width: 90%;
   margin: 12vh auto;
@@ -96,7 +86,7 @@ i:hover {
   flex-wrap: wrap;
 }
 .project-card {
-  flex: 0 0 calc(45% - 0px);
+  flex: 0 0 calc(50% - 33px);
   height: 200px;
   border: 1px solid black;
   border-radius: 5px;

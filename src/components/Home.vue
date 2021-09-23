@@ -9,10 +9,10 @@
           <div><span class="history-item">Previously: </span>Software Engineer Intern @ Optum</div>
         </div>
         <div id="icons">
-          <a href="https://github.com/liwll"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/liwll/"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/liwll" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/liwll/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
           <a href="mailto:will.li@stonybrook.edu"><i class="bi bi-envelope-fill"></i></a>
-          <a href="https://drive.google.com/file/d/1RGFoJ43YIma4estjR4f6dk2g5nyS_1LS/view?usp=sharing"><i class="bi bi-file-earmark-text-fill"></i></a>
+          <a href="https://drive.google.com/file/d/1RGFoJ43YIma4estjR4f6dk2g5nyS_1LS/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text-fill"></i></a>
         </div>
       </div>
       <div class="container">

@@ -10,9 +10,6 @@
             </div>
         </div>
     </div>
-    
-  
-  
 </template>
 
 <script>
@@ -59,22 +56,26 @@ export default {
 
 <style scoped>
 h1 {
-    font-size: 2em;
+  border-bottom: 1px solid #228b22;
+  padding-bottom: 0.25em;
 }
 .projects {
     display: block;
-    margin: 10px auto;
+    margin: 5em auto;
     width: 50%;
 }
 .project {
-    margin: 20px 0;
-    border: 1px solid white;
-    border-radius: 10px;
+    margin: 1em 0;
+    border-left: 1px solid #228b22;
     padding: 15px;
 }
 .name {
     font-size: 1.7em;
     cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+.name:hover {
+    font-size: 1.75em;
 }
 a:visited, a:link {
   color: inherit;
